@@ -18,7 +18,7 @@
   <!-- navbar header -->
   <div class="nav-header">
     <div class="nav-brand">
-      <img src="https://tinypic.host/images/2023/04/21/logoP.png">
+      <a href="/"><img src="https://tinypic.host/images/2023/04/21/logoP.png" alt="Logo Baesp"></a>
     </div>
     <i class="fa fa-bars fa-3x"></i>
     <div class="header-links">
@@ -167,7 +167,16 @@
       <br/>
       <p> For more information, download the pdf from the following link: </p>
       
-      <div style="align-items: center"><a href="/">Link</a></div><br/>
+      <div style="align-items: center">
+        <button class="download-button">Link CV</button>
+
+        <script>
+          var downloadButton = document.querySelector('.download-button');
+          downloadButton.addEventListener('click', function() {
+            window.location.href = 'https://drive.google.com/file/d/16IjQkaEVDNBBvyAvVM-E97-t_9MsvI73/view?usp=sharing';
+          });
+        </script>
+      </div><br/>
       
     </div>
   </div>
@@ -178,14 +187,17 @@
         <div class="content wow fadeInDown" data-wow-delay="0.2s">
         <h1>CONTACT ME</h1>
         <h2>Whether you're interested in working with me or just want to say hello, I'd love to hear from you!!♥♥</h2>
-        <br>
-         <div class="social-links">
-          <h2>You can find me on my social media platforms :</h2>
-                
+        
+        <br/>
+        <a aria-label="Chat on WhatsApp" href="https://wa.me/+5491162666307"><img alt="Chat on WhatsApp" src="https://scontent.faep14-2.fna.fbcdn.net/v/t39.8562-6/302524815_3448899778679909_2843186333341006023_n.png?_nc_cat=104&ccb=1-7&_nc_sid=6825c5&_nc_ohc=Dpy72aiOPV8AX-jM-Mr&_nc_ht=scontent.faep14-2.fna&oh=00_AfCFLLxigmER4MHy3y7DZrt76MOkuwSQ6_m0EMbuGW47rg&oe=647D5A4F" /></a>
+        <br/>
+        
+        <h2>You can find me on my social media platforms :</h2>
+        <br/>      
                 <a href="https://github.com/BaEsp1"><img src="https://midu.dev/images/tags/github.png" alt="Logo de Github"class="icons"/></a>
-                <a href="https://www.linkedin.com/in/b%C3%A1rbara-espinola-500032263/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Logo de Linkedin"class="icons"/></a>
-                <a href="https://instagram.com/baespok?igshid=OTJhZDVkZWE="><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Logo de IG"class="icons"/></a>
-          </div>
+                <a href="https://www.linkedin.com/in/baesp"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Logo de Linkedin"class="icons"/></a>
+                <!-- <a href="https://instagram.com/baespok?igshid=OTJhZDVkZWE="><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Logo de IG"class="icons"/></a> -->
+        
         </div>
     </div>
     <!-- end section -->
