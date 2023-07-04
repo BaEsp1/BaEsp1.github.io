@@ -748,7 +748,7 @@ border-radius: 20px 20px 0px 0px;
 .foto{
   margin-left: 20px;
   height: 150px;
-  width: 130px;
+  width: 120px;
   float: left;
   border:2px solid #ffffff;
   box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%), 0 2px 4px -1px rgb(0 0 0 / 30%);
@@ -776,4 +776,8 @@ display: block;
 .iconoCV{
   width: 18px;
   height: 18px;
+}
+
+.BtonWhats{
+
 }
