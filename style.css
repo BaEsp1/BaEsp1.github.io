@@ -211,7 +211,7 @@ p {
 }
 
 .aboutme {
-  background: url("https://tinypic.host/images/2023/04/22/Back-1.png")
+  background: url(/src/img/bannerportail.png) 
     no-repeat;
   background-size: cover;
 }
