@@ -781,3 +781,11 @@ display: block;
 .BtonWhats{
 
 }
+
+.btonPort{
+  background-color: #CCEABB;
+  box-shadow: 2px -1px 7px 1px rgb(0 0 0 / 62%);
+  border: #b2e993 solid;
+  border-radius: 20px;
+  color: black;
+}
