@@ -216,6 +216,12 @@ p {
   background-size: cover;
 }
 
+@media (max-width: 700px){
+  .aboutme{
+    height: 400px;
+  }
+}
+
 .aboutme p {
   color: white;
   font-weight: 100;
