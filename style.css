@@ -403,7 +403,8 @@ p {
 }
 
 .content-slide img {
-  width: 70%;
+  width: 92%;
+  margin-left: 2em;
 }
 
 .fp-controlArrow.fp-next {
@@ -653,6 +654,7 @@ label {
   animation: 1s blink step-end infinite;
 }
 
+
 @keyframes "blink" {
   from,
   to {
@@ -769,13 +771,15 @@ display: block;
     border-radius: 20px;
     box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%), 0 2px 4px -1px rgb(0 0 0 / 30%);
     display: inline-block;
-    height: 330px;
+    height: 24em;
+    width: 45em;
 }
 
 
 @media (max-width: 460px){
   .cv{
-    height: auto;
+    height: 24em;
+    width: 45em;
   }
 }
 
@@ -790,4 +794,17 @@ display: block;
   border: #b2e993 solid;
   border-radius: 20px;
   color: black;
+}
+
+@media (max-width: 460px){
+  .full{
+    height: auto;
+
+  }
+}
+
+
+
+.fp-warning, .fp-watermark{
+  display: none;
 }
